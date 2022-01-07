@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adventure-works-adf"
+		},
+		"SQLdb_connectionString": {
+			"value": ""
+		},
+		"demo_dl_sql_accountKey": {
+			"value": ""
+		},
+		"Keysql_properties_typeProperties_baseUrl": {
+			"value": "https://sqltraining.vault.azure.net/"
+		},
+		"demo_dl_sql_properties_typeProperties_url": {
+			"value": "https://adventurewokltdl.dfs.core.windows.net"
+		}
+	}
+}
