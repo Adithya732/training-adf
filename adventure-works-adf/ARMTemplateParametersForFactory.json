@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adventure-works-adf"
 		},
+		"AzureStorageLinkedService_connectionString": {
+			"value": ""
+		},
+		"LinkedService_connectionString": {
+			"value": ""
+		},
 		"SQLdb_connectionString": {
 			"value": ""
 		},

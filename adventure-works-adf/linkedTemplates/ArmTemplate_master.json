@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adventure-works-adf"
 		},
+		"AzureStorageLinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
+		},
+		"LinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LinkedService'"
+		},
 		"SQLdb_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SQLdb'"
@@ -49,6 +57,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureStorageLinkedService_connectionString": {
+						"value": "[parameters('AzureStorageLinkedService_connectionString')]"
+					},
+					"LinkedService_connectionString": {
+						"value": "[parameters('LinkedService_connectionString')]"
 					},
 					"SQLdb_connectionString": {
 						"value": "[parameters('SQLdb_connectionString')]"
